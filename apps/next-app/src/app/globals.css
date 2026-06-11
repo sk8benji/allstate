@@ -1,0 +1,86 @@
+:root {
+  --color-primary-rgb: 37, 99, 235;    /* #2563eb (Royal Blue) */
+  --color-accent-rgb: 59, 130, 246;     /* #3b82f6 (Sky Blue) */
+  --color-secondary-rgb: 248, 250, 252; /* #f8fafc (Light Slate) */
+  --color-surface-rgb: 255, 255, 255;   /* #ffffff (White) */
+  --color-text-heading-rgb: 15, 23, 42;  /* #0f172a (Dark Slate) */
+  --color-text-body-rgb: 71, 85, 105;   /* #475569 (Slate Gray) */
+
+  --color-primary: rgb(var(--color-primary-rgb));
+  --color-accent: rgb(var(--color-accent-rgb));
+  --color-secondary: rgb(var(--color-secondary-rgb));
+  --color-surface: rgb(var(--color-surface-rgb));
+  --color-text-heading: rgb(var(--color-text-heading-rgb));
+  --color-text-body: rgb(var(--color-text-body-rgb));
+
+  --font-heading: var(--font-oswald), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-body);
+  background-color: var(--color-surface);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Base utility classes */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.border-divider {
+  border-color: rgba(var(--color-text-heading-rgb), 0.1);
+}

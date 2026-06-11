@@ -1,0 +1,22 @@
+{
+  "name": "vite-next-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:next": "npm run dev -w @workspace/next-app",
+    "dev:vite": "npm run dev -w @workspace/vite-app",
+    "dev": "concurrently --kill-others \"npm run dev:next\" \"npm run dev:vite\"",
+    "build:next": "npm run build -w @workspace/next-app",
+    "build:vite": "npm run build -w @workspace/vite-app",
+    "build:ui": "npm run build -w @workspace/ui",
+    "build": "npm run build:ui && npm run build:next && npm run build:vite"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.4.5"
+  }
+}
