@@ -471,9 +471,9 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <span className={styles.sectionBadge}>Client Reviews</span>
-            <h2 className={styles.sectionTitle}>What Woodland Hills Businesses Say</h2>
+            <h2 className={styles.sectionTitle}>What Los Angeles Businesses Say</h2>
             <p className={styles.sectionSubtitle}>
-              Hear from office managers and commercial facility owners who trust us with their facility care.
+              Read reviews from office managers and commercial property owners who trust us to maintain their facilities.
             </p>
           </div>
 
