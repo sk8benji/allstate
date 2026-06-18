@@ -1130,11 +1130,6 @@ export default function Home() {
       </footer>
 
       {/* 15. Floating Action Buttons */}
-      {/* Left Float: Phone Call */}
-      <a href="tel:+18188871134" className={styles.phoneFloat} aria-label="Call Allstate Building & Office Maintenance">
-        <div className={styles.pulse}></div>
-        📞
-      </a>
 
       {/* Right Float: Message / Contact Form Anchor */}
       <a href="#quote" className={styles.whatsappFloat} aria-label="Request Quote">
