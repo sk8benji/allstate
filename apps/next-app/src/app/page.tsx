@@ -440,6 +440,42 @@ export default function Home() {
             </p>
           </div>
 
+          <div className={styles.googleSummaryBadge}>
+            <div className={styles.googleSummaryGood}>GOOD</div>
+            <div className={styles.googleSummaryStars}>
+              <svg width="28" height="28" viewBox="0 0 24 24" className={styles.starIcon}>
+                <polygon fill="#fbbf24" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" className={styles.starIcon}>
+                <polygon fill="#fbbf24" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" className={styles.starIcon}>
+                <polygon fill="#fbbf24" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" className={styles.starIcon}>
+                <polygon fill="#fbbf24" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <svg width="28" height="28" viewBox="0 0 24 24" className={styles.starIcon}>
+                <defs>
+                  <linearGradient id="halfGrad">
+                    <stop offset="50%" stopColor="#fbbf24" />
+                    <stop offset="50%" stopColor="#e2e8f0" />
+                  </linearGradient>
+                </defs>
+                <polygon fill="url(#halfGrad)" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div className={styles.googleSummaryCount}>Based on 44 reviews</div>
+            <div className={styles.googleSummaryBrand}>
+              <span className={styles.googleG}>G</span>
+              <span className={styles.googleO1}>o</span>
+              <span className={styles.googleO2}>o</span>
+              <span className={styles.googleG2}>g</span>
+              <span className={styles.googleL}>l</span>
+              <span className={styles.googleE}>e</span>
+            </div>
+          </div>
+
           <div className={styles.testimonialGrid}>
             <div className={styles.testimonialCard}>
               <div className={styles.rating}>★★★★★</div>
