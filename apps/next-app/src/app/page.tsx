@@ -213,8 +213,9 @@ export default function Home() {
 
           <div className={styles.serviceGrid}>
             <div className={styles.serviceCard}>
-              <img src="/dealership.jpg" alt="Car dealerships and rental car agencies showroom cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🚗</div>
+              <a href="/car-dealerships-janitorial-services" className={styles.serviceImageWrapper}>
+                <img src="/dealership.jpg" alt="Car dealerships and rental car agencies showroom cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/car-dealerships-janitorial-services" className={styles.serviceTitleLink}>
                   Dealerships and rental car agencies
@@ -223,14 +224,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Pristine showroom floor scrubbing, lobby polishing, glass window detailing, and detailed office sanitization to project a high-end brand image to buyers and renters.
               </p>
-              <a href="/car-dealerships-janitorial-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/medical.jpg" alt="Medical and dental clinics cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🏥</div>
+              <a href="/dental-office-janitorial-services" className={styles.serviceImageWrapper}>
+                <img src="/medical.jpg" alt="Medical and dental clinics cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/dental-office-janitorial-services" className={styles.serviceTitleLink}>
                   Medical and dental clinics
@@ -239,14 +238,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Hospital-grade disinfection, sanitizing patient rooms, operating suites, waiting rooms, and restrooms. Fully compliant with OSHA and healthcare safety standards.
               </p>
-              <a href="/dental-office-janitorial-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/manufacturing.jpg" alt="Manufacturing facilities cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🏭</div>
+              <a href="/industrial-manufacturing-janitorial-services" className={styles.serviceImageWrapper}>
+                <img src="/manufacturing.jpg" alt="Manufacturing facilities cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/industrial-manufacturing-janitorial-services" className={styles.serviceTitleLink}>
                   Manufacturing facilities
@@ -255,14 +252,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Heavy-duty floor degreasing, warehouse sweep downs, machinery area dusting, breakroom sanitizing, and safety pathway clearing for industrial plants.
               </p>
-              <a href="/industrial-manufacturing-janitorial-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/religious.jpg" alt="Religious Facilities cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>⛪</div>
+              <a href="/church-cleaning-services" className={styles.serviceImageWrapper}>
+                <img src="/religious.jpg" alt="Religious Facilities cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/church-cleaning-services" className={styles.serviceTitleLink}>
                   Religious Facilities
@@ -271,14 +266,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Respectful, detailed sanitizing of worship halls, pews, altars, community kitchens, classrooms, and high-ceiling dusting to maintain a welcoming atmosphere.
               </p>
-              <a href="/church-cleaning-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/school.jpg" alt="School cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🏫</div>
+              <a href="/school-cleaning-services" className={styles.serviceImageWrapper}>
+                <img src="/school.jpg" alt="School cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/school-cleaning-services" className={styles.serviceTitleLink}>
                   School Cleaning
@@ -287,14 +280,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Thorough classroom disinfecting, desk sanitizing, hallway waxing, gym floor buffing, cafeteria deep-clean, and restroom sterilization for safe education centers.
               </p>
-              <a href="/school-cleaning-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/mall.jpg" alt="Shopping Mall Cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🛍️</div>
+              <a href="/shopping-mall-cleaning" className={styles.serviceImageWrapper}>
+                <img src="/mall.jpg" alt="Shopping Mall Cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/shopping-mall-cleaning" className={styles.serviceTitleLink}>
                   Shopping Mall Cleaning
@@ -303,14 +294,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Large-scale common area sweeping, escalator handrail sanitation, food court cleaning, public restroom servicing, and high-gloss floor polishing.
               </p>
-              <a href="/shopping-mall-cleaning" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/fitness.jpg" alt="Fitness Center Cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🏋️</div>
+              <a href="/fitness-center-cleaning" className={styles.serviceImageWrapper}>
+                <img src="/fitness.jpg" alt="Fitness Center Cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/fitness-center-cleaning" className={styles.serviceTitleLink}>
                   Fitness Center Cleaning
@@ -319,14 +308,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Disinfecting exercise machines, sanitizing yoga mats, deep-cleaning locker rooms, and running high-grade air scrubbing systems to ensure a sanitary and odor-free fitness facility.
               </p>
-              <a href="/fitness-center-cleaning" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/dance.jpg" alt="Dance Studios cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>💃</div>
+              <a href="/dance-studio-janitorial-services" className={styles.serviceImageWrapper}>
+                <img src="/dance.jpg" alt="Dance Studios cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/dance-studio-janitorial-services" className={styles.serviceTitleLink}>
                   Dance Studios
@@ -335,14 +322,12 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Sweeping, dust-mopping, and damp-mopping wood studio floors to keep them dust-free and slip-resistant. Sanitizing ballet barres, audio equipment, and floor-to-ceiling mirror walls.
               </p>
-              <a href="/dance-studio-janitorial-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
 
             <div className={styles.serviceCard}>
-              <img src="/office.jpg" alt="Office Buildings cleaning" className={styles.photoImage} />
-              <div className={styles.serviceIcon}>🏢</div>
+              <a href="/offices-and-buildings-janitorial-services" className={styles.serviceImageWrapper}>
+                <img src="/office.jpg" alt="Office Buildings cleaning" className={styles.photoImage} />
+              </a>
               <h3 className={styles.serviceTitle}>
                 <a href="/offices-and-buildings-janitorial-services" className={styles.serviceTitleLink}>
                   Office Buildings
@@ -351,11 +336,9 @@ export default function Home() {
               <p className={styles.serviceText}>
                 Daily or weekly janitorial care including desk sanitization, conference room cleaning, trash removal, floor vacuuming, glass entry detailing, and breakroom deep cleaning.
               </p>
-              <a href="/offices-and-buildings-janitorial-services" className="text-primary" style={{ fontWeight: "600", marginTop: "auto" }}>
-                Learn More &rarr;
-              </a>
             </div>
           </div>
+
         </div>
       </section>
 
