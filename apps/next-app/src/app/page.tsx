@@ -675,7 +675,7 @@ export default function Home() {
 
             <div>
               <span className={styles.sectionBadge}>Our Organization</span>
-              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Woodland Hills' Trusted Facility Partner</h2>
+              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>The San Fernando Valley's Trusted Facility Partner</h2>
               <p className={styles.sectionSubtitle} style={{ textAlign: "left", marginBottom: "1.5rem" }}>
                 Allstate Building & Office Maintenance serves commercial facilities, medical centers, and warehouses with custom upkeep services.
               </p>
