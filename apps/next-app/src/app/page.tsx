@@ -394,36 +394,73 @@ export default function Home() {
       <section id="gallery" className={styles.sectionAlt}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <span className={styles.sectionBadge}>Our Operations</span>
-            <h2 className={styles.sectionTitle}>Featured Facilities Gallery</h2>
+            <span className={styles.sectionBadge}>Operational Standards</span>
+            <h2 className={styles.sectionTitle}>Our Operational Standards</h2>
             <p className={styles.sectionSubtitle}>
-              Visual frames for Allstate's building maintenance projects, office upkeep, and commercial cleaning operations.
+              We follow strict quality benchmarks, seamless customer support protocols, and rapid emergency procedures to ensure superior facility care.
             </p>
           </div>
 
           <div className={styles.galleryGrid}>
             <div className={styles.galleryCard}>
-              <img src="/dealership.jpg" alt="Car Dealership Showroom Floor Polish" className={styles.photoImage} />
-              <h3 className={styles.galleryCardTitle}>Car Dealership Showroom</h3>
-              <p className={styles.galleryCardText}>High-gloss floor finish and window cleaning for local auto agencies.</p>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Cross-Contamination Prevention</h3>
+              <p className={styles.galleryCardText}>
+                Our professional crews strictly utilize a comprehensive color-coding system for all cleaning equipment to eliminate the risk of cross-contamination across different facility zones.
+              </p>
             </div>
 
             <div className={styles.galleryCard}>
-              <img src="/medical.jpg" alt="Medical Center Sanitizing" className={styles.photoImage} />
-              <h3 className={styles.galleryCardTitle}>Medical Center Sanitizing</h3>
-              <p className={styles.galleryCardText}>Restroom and treatment room sanitization for dental clinics.</p>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                  <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+                  <path d="M12 10V6a2 2 0 0 1 2-2h1" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>24/7 Customer Support</h3>
+              <p className={styles.galleryCardText}>
+                We provide 24-hour customer support lines to ensure constant communication and immediate answers to your facility needs.
+              </p>
             </div>
 
             <div className={styles.galleryCard}>
-              <img src="/manufacturing.jpg" alt="Manufacturing Plant deep clean sweep" className={styles.photoImage} />
-              <h3 className={styles.galleryCardTitle}>Manufacturing Plant</h3>
-              <p className={styles.galleryCardText}>Deep clean sweep and grease removal for industrial facilities.</p>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                  <path d="m9 14 2 2 4-4" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Proactive Quality Control</h3>
+              <p className={styles.galleryCardText}>
+                Our corporate representatives conduct weekly routine site visits to inspect performance and guarantee total customer satisfaction.
+              </p>
             </div>
 
             <div className={styles.galleryCard}>
-              <img src="/school.jpg" alt="School Hallways & Classrooms cleaning" className={styles.photoImage} />
-              <h3 className={styles.galleryCardTitle}>School Hallways & Classrooms</h3>
-              <p className={styles.galleryCardText}>Complete vinyl tile floor stripping and waxing during holiday break.</p>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+                  <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+                  <path d="M21 12h1" />
+                  <path d="M18.5 6.5 20 5" />
+                  <path d="M2 12h1" />
+                  <path d="M5.5 6.5 4 5" />
+                  <path d="M12 2v1" />
+                  <path d="M12 7v4" />
+                  <path d="M11 12h2" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Emergency Response Team</h3>
+              <p className={styles.galleryCardText}>
+                We maintain a dedicated, after-hours emergency support team ready to deploy instantly for any urgent maintenance issues.
+              </p>
             </div>
           </div>
         </div>
