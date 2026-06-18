@@ -141,102 +141,51 @@ export default function Home() {
       {/* 2. Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroBackground}></div>
+        <div className={styles.heroOverlay}></div>
         <div className={styles.container}>
           <div className={styles.heroContent}>
-            <div>
-              <span className={styles.heroBadge}>Woodland Hills, CA</span>
-              <h1 className={styles.heroTitle}>Premier Commercial Cleaning & Building Maintenance</h1>
-              <p className={styles.heroText}>
-                Allstate Building & Office Maintenance has delivered pristine workspaces, reliable janitorial schedules, and full facility care since 1981. Over 45 years of trusted experience.
-              </p>
-              <div className={styles.heroBtns}>
-                <a href="#quote" className={styles.btnPrimary}>Request Free Quote</a>
-                <a href="tel:+18188871134" className={styles.btnSecondary}>Call (818) 887-1134</a>
-              </div>
+            <h1 className={styles.heroTitle}>ALLSTATE BUILDING & OFFICE MAINTENANCE INC.</h1>
+            <p className={styles.heroSubtitle}>Family owned and operated since 1981</p>
+            <div className={styles.heroBtns}>
+              <a href="#quote" className={styles.btnQuoteRed}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className={styles.mailIcon}
+                >
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <span>GET A FREE QUOTE</span>
+              </a>
             </div>
-            <div className={styles.heroImageContainer} style={{ width: "100%", maxWidth: "450px" }}>
-              <div className={styles.formCard} style={{ width: "100%", padding: "2rem 1.75rem", background: "rgba(255, 255, 255, 0.95)", backdropFilter: "blur(12px)", border: "1px solid rgba(var(--color-primary-rgb), 0.12)", boxShadow: "0 20px 50px rgba(0, 0, 0, 0.08)" }}>
-                <div style={{ marginBottom: "1.25rem", textAlign: "center" }}>
-                  <h2 style={{ fontSize: "1.6rem", fontWeight: "700", color: "var(--color-text-heading)", marginBottom: "0.25rem" }}>Free estimate request</h2>
-                  <p style={{ fontSize: "0.85rem", color: "var(--color-text-body)" }}>Get a fast response for your building</p>
-                </div>
-                {topFormSubmitted ? (
-                  <div style={{ textAlign: "center", padding: "1.5rem 0" }}>
-                    <div className={styles.badgeHighlight} style={{ fontSize: "2rem", marginBottom: "0.5rem" }}>Thank You!</div>
-                    <h3 className={styles.highlightLabel} style={{ fontSize: "1.1rem" }}>Estimate Requested</h3>
-                    <p className={styles.whyText} style={{ fontSize: "0.9rem" }}>
-                      Our representative will call you shortly to coordinate a walkthrough date.
-                    </p>
-                  </div>
-                ) : (
-                  <form onSubmit={handleTopSubmit}>
-                    <div className={styles.formGroup} style={{ marginBottom: "0.75rem" }}>
-                      <label className={styles.label} style={{ fontSize: "0.7rem", marginBottom: "0.2rem" }}>Name / Business Name *</label>
-                      <input
-                        type="text"
-                        name="name"
-                        required
-                        value={topFormData.name}
-                        onChange={handleTopInputChange}
-                        className={styles.input}
-                        placeholder="e.g. John Doe / Business Corp"
-                        style={{ padding: "0.6rem 0.85rem", fontSize: "0.85rem" }}
-                      />
-                    </div>
-                    <div className={styles.formGroup} style={{ marginBottom: "0.75rem" }}>
-                      <label className={styles.label} style={{ fontSize: "0.7rem", marginBottom: "0.2rem" }}>Phone Number *</label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        required
-                        value={topFormData.phone}
-                        onChange={handleTopInputChange}
-                        className={styles.input}
-                        placeholder="(818) 887-1134"
-                        style={{ padding: "0.6rem 0.85rem", fontSize: "0.85rem" }}
-                      />
-                    </div>
-                    <div className={styles.formGroup} style={{ marginBottom: "0.75rem" }}>
-                      <label className={styles.label} style={{ fontSize: "0.7rem", marginBottom: "0.2rem" }}>Email Address *</label>
-                      <input
-                        type="email"
-                        name="email"
-                        required
-                        value={topFormData.email}
-                        onChange={handleTopInputChange}
-                        className={styles.input}
-                        placeholder="manager@yourbusiness.com"
-                        style={{ padding: "0.6rem 0.85rem", fontSize: "0.85rem" }}
-                      />
-                    </div>
-                    <div className={styles.formGroup} style={{ marginBottom: "1.25rem" }}>
-                      <label className={styles.label} style={{ fontSize: "0.7rem", marginBottom: "0.2rem" }}>Zip Code *</label>
-                      <input
-                        type="text"
-                        name="zipCode"
-                        required
-                        value={topFormData.zipCode}
-                        onChange={handleTopInputChange}
-                        className={styles.input}
-                        placeholder="e.g. 91364"
-                        style={{ padding: "0.6rem 0.85rem", fontSize: "0.85rem" }}
-                      />
-                    </div>
-                    <button type="submit" className={styles.submitBtn} disabled={isSubmittingTop} style={{ padding: "0.75rem 1.25rem", fontSize: "0.95rem", fontWeight: "700", textTransform: "uppercase" }}>
-                      {isSubmittingTop ? "Sending..." : "get free estimate"}
-                    </button>
-                    {topSubmitError && (
-                      <div style={{ color: "#ef4444", marginTop: "0.5rem", fontSize: "0.8rem", fontWeight: "600", textAlign: "center" }}>
-                        ⚠️ {topSubmitError}
-                      </div>
-                    )}
-                  </form>
-                )}
-              </div>
-            </div>
+            <a href="#quote" className={styles.scrollDownArrow} aria-label="Scroll Down">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
+
 
       {/* 3. Intro Section */}
       <section className={styles.section}>
