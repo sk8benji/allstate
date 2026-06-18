@@ -109,16 +109,16 @@ export default function Home() {
 
   // 10-Step process array
   const steps = [
-    { number: "01", title: "Site Assessment & Inspection", text: "We conduct an in-depth walkthrough of your commercial facility to note traffic levels, layout configurations, and high-frequency hot zones." },
-    { number: "02", title: "Custom Checklist Formulation", text: "We outline an itemized janitorial list tailored specifically to your company, detailing daily, weekly, and monthly tasks." },
-    { number: "03", title: "Safety & Security Protocol Alignment", text: "We set up clear protocols regarding lockups, keycard entry, alarm codes, and confidentiality guidelines for our cleaning crews." },
-    { number: "04", title: "High-Dusting & Vent Cleansing", text: "We remove cobwebs and dust from high ledges, light fixtures, HVAC registers, and ceiling corners to ensure optimal air quality." },
-    { number: "05", title: "Wall & High-Touch Disinfection", text: "Our staff sanitizes walls, light switches, doors, handles, rails, and shared touchpoints using eco-friendly, virucidal solutions." },
-    { number: "06", title: "Restroom Deep Sterilization", text: "We wash, scrub, and sanitize toilet fixtures, urinals, mirrors, sinks, and partitions. We restock consumables and polish hardware." },
-    { number: "07", title: "Breakroom & Kitchen Degreasing", text: "We deep-clean countertops, tables, appliances, sinks, and cabinets. Trash receptacles are emptied, disinfected, and relined." },
-    { number: "08", title: "Floor Care & Carpet Restoration", text: "We vacuum all carpeted areas and run specialized commercial mop systems over hard floors, finishing with high-speed buffing if needed." },
-    { number: "09", title: "Manager Quality Inspection", text: "Before leaving, our team lead executes a visual quality control audit against your customized checklist, confirming no detail is missed." },
-    { number: "10", title: "Account Review & Check-in", text: "We request feedback via regular account manager communication to guarantee consistent satisfaction with our maintenance performance." }
+    { number: "01", title: "Site Assessment", text: "We conduct a thorough walkthrough of your facility to map layout configurations and high-traffic zones." },
+    { number: "02", title: "Custom Checklist Formulation", text: "We build an itemized janitorial list detailing your specific daily, weekly, and monthly tasks." },
+    { number: "03", title: "Security Protocol Alignment", text: "We establish strict protocols for lockups, alarm codes, and confidentiality before our crews enter." },
+    { number: "04", title: "High-Dusting & Vent Cleansing", text: "We clean dust and cobwebs from high ledges, light fixtures, and HVAC vents to improve air quality." },
+    { number: "05", title: "High-Touch Disinfection", text: "Our team sanitizes switches, handles, rails, and shared touchpoints using eco-friendly, virucidal solutions." },
+    { number: "06", title: "Restroom Deep Sterilization", text: "We scrub and sanitize toilets, urinals, sinks, and partitions, then restock consumables and polish hardware." },
+    { number: "07", title: "Breakroom Degreasing", text: "We deep-clean countertops, tables, and appliances, then empty, disinfect, and reline all trash bins." },
+    { number: "08", title: "Advanced Floor Care", text: "We vacuum carpets and mop hard floors, adding high-speed buffing when necessary." },
+    { number: "09", title: "Quality Inspection", text: "Our team lead runs a final visual audit against your custom checklist to ensure spotless results." },
+    { number: "10", title: "Account Review", text: "We check in regularly to gather feedback and maintain our high performance standards." }
   ];
 
   // FAQ array (No pricing references)
@@ -622,7 +622,7 @@ export default function Home() {
             <span className={styles.sectionBadge}>Our Methods</span>
             <h2 className={styles.sectionTitle}>Our 10-Step Facility Upkeep Process</h2>
             <p className={styles.sectionSubtitle}>
-              We maintain high commercial cleaning consistency by applying a systematic, step-by-step quality plan to every property.
+              We ensure consistent cleaning quality through a systematic, step-by-step process tailored to your property.
             </p>
           </div>
 
