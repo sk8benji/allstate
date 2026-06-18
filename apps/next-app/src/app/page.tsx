@@ -397,7 +397,7 @@ export default function Home() {
             <span className={styles.sectionBadge}>Operational Standards</span>
             <h2 className={styles.sectionTitle}>Our Operational Standards</h2>
             <p className={styles.sectionSubtitle}>
-              We follow strict quality benchmarks, seamless customer support protocols, and rapid emergency procedures to ensure superior facility care.
+              We guarantee superior facility care through strict quality benchmarks, continuous support, and rapid emergency protocols.
             </p>
           </div>
 
@@ -411,7 +411,7 @@ export default function Home() {
               </div>
               <h3 className={styles.galleryCardTitle}>Cross-Contamination Prevention</h3>
               <p className={styles.galleryCardText}>
-                Our professional crews strictly utilize a comprehensive color-coding system for all cleaning equipment to eliminate the risk of cross-contamination across different facility zones.
+                Our crews use a strict color-coding system for all cleaning equipment. This practice eliminates cross-contamination risks across different zones of your facility.
               </p>
             </div>
 
@@ -425,7 +425,7 @@ export default function Home() {
               </div>
               <h3 className={styles.galleryCardTitle}>24/7 Customer Support</h3>
               <p className={styles.galleryCardText}>
-                We provide 24-hour customer support lines to ensure constant communication and immediate answers to your facility needs.
+                We provide 24-hour support lines to ensure constant communication and immediate answers to your facility needs.
               </p>
             </div>
 
@@ -439,7 +439,7 @@ export default function Home() {
               </div>
               <h3 className={styles.galleryCardTitle}>Proactive Quality Control</h3>
               <p className={styles.galleryCardText}>
-                Our corporate representatives conduct weekly routine site visits to inspect performance and guarantee total customer satisfaction.
+                Our supervisors visit your site weekly. They inspect performance on-site and ensure your total satisfaction.
               </p>
             </div>
 
@@ -459,7 +459,7 @@ export default function Home() {
               </div>
               <h3 className={styles.galleryCardTitle}>Emergency Response Team</h3>
               <p className={styles.galleryCardText}>
-                We maintain a dedicated, after-hours emergency support team ready to deploy instantly for any urgent maintenance issues.
+                We maintain an after-hours emergency team. Our technicians deploy instantly to resolve any urgent maintenance issue.
               </p>
             </div>
           </div>
