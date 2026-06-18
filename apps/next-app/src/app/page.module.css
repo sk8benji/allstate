@@ -639,6 +639,22 @@
   color: var(--color-text-body);
 }
 
+.reviewLink {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-primary); /* Rose primary */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.reviewLink:hover {
+  color: var(--color-accent); /* Rose accent hover */
+  transform: translateX(3px);
+}
+
 /* About Us Layout */
 .aboutCardGrid {
   display: grid;

@@ -444,33 +444,57 @@ export default function Home() {
             <div className={styles.testimonialCard}>
               <div className={styles.rating}>★★★★★</div>
               <p className={styles.quote}>
-                &ldquo;Allstate Building has transformed our Woodland Hills office operations. Their cleaning crew is punctual, careful with our equipment, and our office is consistently pristine.&rdquo;
+                &ldquo;Allstate has been cleaning my office 3 days a week since 2018. They are always very reliable and consistent. My cleaners even came to clean during the worst day of Hurricane Hillary which I was very grateful for since the roads were so flooded. Our office had minor flooding from the storm so I emailed Pam to request an emergency carpet shampoo. She responded right away and had a technician perform the shampoo the same day. I highly recommend this company. Great cleaners and caring customer service staff!&rdquo;
               </p>
               <div className={styles.clientInfo}>
-                <span className={styles.clientName}>Sarah M.</span>
-                <span className={styles.clientCompany}>Warner Center Agency</span>
+                <span className={styles.clientName}>t b</span>
+                <span className={styles.clientCompany}>Verified Google Review</span>
+                <a
+                  href="https://share.google/9Pvj7izc64fUGtesW"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.reviewLink}
+                >
+                  View Review &rarr;
+                </a>
               </div>
             </div>
 
             <div className={styles.testimonialCard}>
               <div className={styles.rating}>★★★★★</div>
               <p className={styles.quote}>
-                &ldquo;We hire Allstate for floor stripping and waxing every 6 months, alongside weekly office upkeep. The results are flawless, and their custom estimates are fully detailed and fair.&rdquo;
+                &ldquo;We are very pleased with our cleaning co. Allstate, starting with Stephanie and her customer service, Pam gets the job done as listens to any concerns and sends the best person for the job. Jorge is the man when you want the job done right!!! he goes above and beyond his job. Thank you guys for the excellent service you provide for us.&rdquo;
               </p>
               <div className={styles.clientInfo}>
-                <span className={styles.clientName}>Robert K.</span>
-                <span className={styles.clientCompany}>Ventura Blvd Corporate Plaza</span>
+                <span className={styles.clientName}>Duarte Family Dentistry</span>
+                <span className={styles.clientCompany}>Verified Google Review</span>
+                <a
+                  href="https://share.google/qxiu2nLr0NlXZEdv2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.reviewLink}
+                >
+                  View Review &rarr;
+                </a>
               </div>
             </div>
 
             <div className={styles.testimonialCard}>
               <div className={styles.rating}>★★★★★</div>
               <p className={styles.quote}>
-                &ldquo;Professional, communicative, and exceptionally clean. They handle our medical clinic sanitization with the utmost responsibility and care. Highly recommended.&rdquo;
+                &ldquo;I heard about Allstate from a close friend of mine several years ago. I decided to go with them because I really liked Anthony and his approach to my company. You see Allstate is a family run company. So is my company and I'm the son of parents who each had their own companies. So I place great value in this. Almost 5 years has gone by now and I couldn't think about using another company. They do an excellent job cleaning my 6K square foot gym. If I ever have an issue they go above and beyond to fix it as soon as possible. Anthony is on top of everything I need. I feel like they are more then just &ldquo;my cleaning crew&rdquo; I know all their names. They are my friends. I respect them and they respect me and our relationship has blossomed over the years. That's why I prefer family runned companies. Because you become a part of each other's family. Look no further when finding your crew. In a world run by large corporations family run is always the way to go. Give these guys a shot, be patient, and communicate. You will be extremely grateful that you did.&rdquo;
               </p>
               <div className={styles.clientInfo}>
-                <span className={styles.clientName}>Dr. Elena R.</span>
-                <span className={styles.clientCompany}>Woodland Hills Family Care Clinic</span>
+                <span className={styles.clientName}>Michael Tromello</span>
+                <span className={styles.clientCompany}>Verified Google Review</span>
+                <a
+                  href="https://share.google/xA1lfGFgcRfxKHPmE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.reviewLink}
+                >
+                  View Review &rarr;
+                </a>
               </div>
             </div>
           </div>
