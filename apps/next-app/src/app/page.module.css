@@ -1237,6 +1237,19 @@
   animation: float 4s ease-in-out infinite;
 }
 
+.greenCommitmentImage {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  display: block;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(var(--color-primary-rgb), 0.1);
+  position: relative;
+  z-index: 1;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);

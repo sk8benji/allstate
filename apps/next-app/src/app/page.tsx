@@ -634,7 +634,11 @@ export default function Home() {
             </div>
 
             <div className={styles.greenCommitmentCard}>
-              <div className={styles.greenCommitmentIcon}>🌱</div>
+              <img
+                src="/eco-friendly.jpg"
+                alt="Allstate Eco-Friendly Commitment"
+                className={styles.greenCommitmentImage}
+              />
               <h3 className={styles.greenCommitmentTitle}>Our Eco-Friendly Commitment</h3>
               <p className={styles.greenCommitmentText}>
                 We guarantee health-first, environmentally responsible cleaning options for all corporate office packages.
