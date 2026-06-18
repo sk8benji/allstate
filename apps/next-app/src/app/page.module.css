@@ -536,6 +536,15 @@
   text-align: center;
 }
 
+.whyImage {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  display: block;
+}
+
 .badgeHighlight {
   font-size: 3.5rem;
   font-weight: 800;

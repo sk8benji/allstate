@@ -379,6 +379,7 @@ export default function Home() {
             </div>
 
             <div className={styles.whyImageCard}>
+              <img src="/team.png" alt="Allstate Cleaning Crew" className={styles.whyImage} />
               <div className={styles.badgeHighlight}>1981</div>
               <h3 className={styles.highlightLabel}>Established Operations</h3>
               <p className={styles.whyText}>
