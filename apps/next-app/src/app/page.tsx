@@ -483,6 +483,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 6b. Pricing & Budgeting Section */}
+      <section id="pricing" className={styles.section}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.sectionBadge}>Budget & Rates</span>
+            <h2 className={styles.sectionTitle}>Understanding Pricing & Meeting Your Budget</h2>
+            <p className={styles.sectionSubtitle}>
+              Clear, honest rates tailored to your facility's specific needs.
+            </p>
+          </div>
+
+          <div className={styles.galleryGrid}>
+            <div className={styles.galleryCard}>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Transparent Pricing Based on Real Time</h3>
+              <p className={styles.galleryCardText}>
+                We base our pricing on the actual time required to clean your facility. A simple, empty carpeted room takes less time to maintain than a fully furnished workspace. When you add desks, chairs, electronic equipment, high-traffic trash cans, or glass partitions, the scope increases. More details require more time.
+              </p>
+            </div>
+
+            <div className={styles.galleryCard}>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <path d="m9 15 2 2 4-4" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Clear Agreements vs. Uncertain Service</h3>
+              <p className={styles.galleryCardText}>
+                Many business managers come to us because they are unhappy with their current cleaning crew. Often, they do not even know exactly what tasks those crews perform during each visit. We change that. When we build your agreement, you receive an itemized, clear list of every single task completed during our visits.
+              </p>
+            </div>
+
+            <div className={styles.galleryCard}>
+              <div className={styles.iconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4" />
+                  <path d="M4 6v12c0 1.1.9 2 2 2h14v-4" />
+                  <path d="M18 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h4v-6h-4z" />
+                </svg>
+              </div>
+              <h3 className={styles.galleryCardTitle}>Tailored Solutions for Every Budget</h3>
+              <p className={styles.galleryCardText}>
+                We adapt to your financial goals. To meet your specific budget, we can divide the workload: our professional crews handle the heavy janitorial tasks while your employees manage minor, internal day-to-day duties. You get the exact care you need without overspending.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 7. Testimonials */}
       <section className={styles.section}>
         <div className={styles.container}>
