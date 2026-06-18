@@ -38,7 +38,7 @@ export async function POST(request: Request) {
         : `New Commercial Quote Request - ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #ffffff;">
-          <h2 style="color: #2563eb; margin-top: 0; border-bottom: 2px solid #2563eb; padding-bottom: 10px;">
+          <h2 style="color: #f43f5e; margin-top: 0; border-bottom: 2px solid #f43f5e; padding-bottom: 10px;">
             ${isTopForm ? "New Quick Estimate Request" : "New Commercial Maintenance Lead"}
           </h2>
           <p style="font-size: 16px; color: #0f172a; margin-bottom: 20px;">
@@ -61,7 +61,7 @@ export async function POST(request: Request) {
             ${zipCode ? `
             <tr>
               <td style="padding: 10px; font-weight: bold; border: 1px solid #e2e8f0;">ZIP Code:</td>
-              <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #2563eb;">${zipCode}</td>
+              <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #f43f5e;">${zipCode}</td>
             </tr>
             ` : ""}
             ${facilitySize ? `
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
             ${selectedService ? `
             <tr>
               <td style="padding: 10px; font-weight: bold; border: 1px solid #e2e8f0;">Required Service:</td>
-              <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #2563eb;">${selectedService}</td>
+              <td style="padding: 10px; border: 1px solid #e2e8f0; font-weight: bold; color: #f43f5e;">${selectedService}</td>
             </tr>
             ` : ""}
           </table>
