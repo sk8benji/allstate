@@ -365,9 +365,9 @@ export default function Home() {
           <div className={styles.twoColGrid}>
             <div>
               <span className={styles.sectionBadge}>Why Choose Us</span>
-              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Woodland Hills' Commercial Standard</h2>
+              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Los Angeles Commercial Cleaning Standard</h2>
               <p className={styles.sectionSubtitle} style={{ marginBottom: "2rem", textAlign: "left" }}>
-                Allstate Building & Office Maintenance has built a reputation on trust, quality workmanship, and seamless communication.
+                Allstate Building & Office Maintenance delivers reliable facility care built on trust, quality workmanship, and clear communication.
               </p>
 
               <div className={styles.whyList}>
@@ -375,21 +375,21 @@ export default function Home() {
                   <div className={styles.whyIcon}>✓</div>
                   <div>
                     <h3 className={styles.whyHeading}>Commercial Expertise</h3>
-                    <p className={styles.whyText}>Years of professional commercial, medical, and corporate care standard.</p>
+                    <p className={styles.whyText}>We bring decades of specialized care to commercial facilities, medical centers, and corporate offices.</p>
                   </div>
                 </div>
                 <div className={styles.whyItem}>
                   <div className={styles.whyIcon}>✓</div>
                   <div>
                     <h3 className={styles.whyHeading}>Insured & Bonded Crew</h3>
-                    <p className={styles.whyText}>Fully insured personnel for your security, safety, and operational comfort.</p>
+                    <p className={styles.whyText}>Our team is fully licensed, bonded, and insured to guarantee your facility’s security and safety.</p>
                   </div>
                 </div>
                 <div className={styles.whyItem}>
                   <div className={styles.whyIcon}>✓</div>
                   <div>
                     <h3 className={styles.whyHeading}>Transparent Estimates</h3>
-                    <p className={styles.whyText}>Know exactly what service specifications you get with a detailed written agreement.</p>
+                    <p className={styles.whyText}>You know exactly what you pay for with an itemized, detailed written agreement before work begins.</p>
                   </div>
                 </div>
               </div>
