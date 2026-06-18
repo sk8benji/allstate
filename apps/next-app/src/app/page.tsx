@@ -835,14 +835,16 @@ export default function Home() {
       {/* 11. Service Areas */}
       <section className={styles.section}>
         <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.sectionBadge}>Locations</span>
+            <h2 className={styles.sectionTitle}>Our Service Coverage Areas</h2>
+            <p className={styles.sectionSubtitle}>
+              We proudly provide office cleaning and commercial building maintenance services across the San Fernando Valley and the Greater Los Angeles Area.
+            </p>
+          </div>
+
           <div className={styles.areaGrid}>
             <div>
-              <span className={styles.sectionBadge}>Locations</span>
-              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Our Service Coverage Areas</h2>
-              <p className={styles.sectionSubtitle} style={{ textAlign: "left", marginBottom: "2rem" }}>
-                We proudly provide office cleaning and commercial building maintenance services across the San Fernando Valley and the Greater Los Angeles Area.
-              </p>
-
               <h3 className={styles.areaSubHeader}>San Fernando Valley</h3>
               <div className={styles.areaLinks}>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Woodland Hills (HQ)</div>
@@ -852,7 +854,9 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Sherman Oaks</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hills</div>
               </div>
+            </div>
 
+            <div>
               <h3 className={styles.areaSubHeader}>Greater Los Angeles</h3>
               <div className={styles.areaLinks}>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Santa Monica</div>
@@ -861,17 +865,6 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Glendale</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Downtown LA</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hollywood</div>
-              </div>
-            </div>
-
-            <div className={styles.whyImageCard}>
-              <h3 className={styles.highlightLabel}>Central Office Location</h3>
-              <p className={styles.whyText} style={{ margin: "1rem 0" }}>
-                Our central operations warehouse allows our crews to deploy quickly to properties across Ventura Blvd and neighboring valley centers.
-              </p>
-              <div className={styles.whyText} style={{ fontWeight: "700", color: "var(--color-text-heading)" }}>
-                Allstate Building & Office Maintenance<br/>
-                19720 Ventura Blvd, Woodland Hills, CA 91364
               </div>
             </div>
           </div>
