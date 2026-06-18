@@ -190,12 +190,29 @@ export default function Home() {
       {/* 3. Intro Section */}
       <section className={styles.section}>
         <div className={styles.container}>
-          <div className={styles.sectionHeader}>
+          <div className={styles.sectionHeader} style={{ marginBottom: "2rem" }}>
             <span className={styles.sectionBadge}>About Our Firm</span>
-            <h2 className={styles.sectionTitle}>Woodland Hills Commercial Facility Care Experts</h2>
+            <h2 className={styles.sectionTitle}>Los Angeles Commercial Facility Care Experts</h2>
             <p className={styles.sectionSubtitle}>
-              Since 1981, we have provided commercial properties with clean, healthy, and inviting environments. We understand that a clean workspace boosts worker health, employee focus, and corporate image.
+              Since 1981, Allstate Building & Office Maintenance Inc. has delivered clean, healthy, and inviting environments for commercial properties. We know a spotless workspace drives employee health, focus, and corporate reputation.
             </p>
+          </div>
+
+          <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
+            <p className={styles.whyText} style={{ fontSize: "1.1rem", lineHeight: "1.7", marginBottom: "1.5rem" }}>
+              With over 40 years of industry experience, we are licensed, bonded, and insured. Our company focuses on quality cleaning, reliable customer service, and competitive pricing.
+            </p>
+            <p className={styles.whyText} style={{ fontSize: "1.1rem", lineHeight: "1.7", marginBottom: "2rem" }}>
+              We protect your workplace using advanced antibacterial and antiviral solutions that follow strict CDC safety guidelines. Our goal is simple: to deliver consistent results so we are the last maintenance company you ever need to hire.
+            </p>
+            <div style={{ marginTop: "2rem" }}>
+              <a href="tel:+18188871134" className={styles.btnPrimary} style={{ gap: "0.5rem" }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span>Call (818) 887-1134</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
