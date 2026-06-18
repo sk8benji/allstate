@@ -602,12 +602,12 @@ export default function Home() {
 
             <div>
               <span className={styles.sectionBadge}>Our Organization</span>
-              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Woodland Hills Trusted Facility Partner</h2>
+              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Woodland Hills' Trusted Facility Partner</h2>
               <p className={styles.sectionSubtitle} style={{ textAlign: "left", marginBottom: "1.5rem" }}>
-                Allstate Building & Office Maintenance has served commercial facilities, medical centers, and warehouses with custom upkeep services.
+                Allstate Building & Office Maintenance serves commercial facilities, medical centers, and warehouses with custom upkeep services.
               </p>
               <p className={styles.whyText} style={{ marginBottom: "1.5rem" }}>
-                Our staff members undergo background screening and rigorous training in OSHA sanitization protocols. We focus on building long-term partnerships with business managers by maintaining high quality control standards.
+                Our team undergoes strict background checks and rigorous OSHA sanitization training. We build long-term partnerships with business managers through strict quality control standards.
               </p>
               <a href="#quote" className={styles.btnPrimary}>Learn More</a>
             </div>
