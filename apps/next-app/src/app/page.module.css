@@ -472,6 +472,16 @@
   opacity: 0.6;
 }
 
+.organizationPhoto {
+  width: 100%;
+  aspect-ratio: 4 / 5; /* Taller aspect ratio for the skyscraper photo */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
 /* Why Choose Us */
 .twoColGrid {
   display: grid;

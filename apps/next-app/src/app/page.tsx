@@ -481,10 +481,11 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.twoColGrid}>
             <div className={styles.whyImageCard} style={{ backgroundColor: "#fff", padding: "1.5rem" }}>
-              <div className={styles.photoPlaceholder} style={{ minHeight: "260px", marginBottom: "0" }}>
-                <span className={styles.photoPlaceholderIcon}>👥</span>
-                <span>Our Team & Operations Photo</span>
-              </div>
+              <img
+                src="/organization.jpg"
+                alt="Allstate Building & Office Maintenance Organization"
+                className={styles.organizationPhoto}
+              />
               <div className={styles.aboutCardGrid}>
                 <div className={styles.aboutMiniCard}>
                   <div className={styles.aboutMiniVal}>45+</div>
