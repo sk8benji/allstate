@@ -217,13 +217,13 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.95rem 2.25rem;
-  background-color: #f43f5e; /* Rose 500 */
+  background-color: #3b84f6; /* Blue 500 */
   color: #ffffff;
   border-radius: 9999px;
   font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: 0.05em;
-  box-shadow: 0 4px 15px rgba(244, 63, 94, 0.3);
+  box-shadow: 0 4px 15px rgba(59, 132, 246, 0.3);
   transition: all 0.25s ease;
   text-decoration: none;
   cursor: pointer;
@@ -231,9 +231,9 @@
 }
 
 .btnQuoteRed:hover {
-  background-color: #e11d48; /* Rose 600 */
+  background-color: #2563eb; /* Blue 600 */
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(244, 63, 94, 0.45);
+  box-shadow: 0 6px 20px rgba(59, 132, 246, 0.45);
 }
 
 .mailIcon {
@@ -254,7 +254,7 @@
 .scrollDownArrow:hover {
   opacity: 1;
   transform: scale(1.1);
-  color: #f43f5e;
+  color: #3b84f6;
 }
 
 @keyframes bounce {

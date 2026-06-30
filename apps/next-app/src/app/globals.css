@@ -1,6 +1,6 @@
 :root {
-  --color-primary-rgb: 244, 63, 94;    /* #f43f5e (Rose Primary) */
-  --color-accent-rgb: 225, 29, 72;     /* #e11d48 (Rose Accent) */
+  --color-primary-rgb: 59, 132, 246;    /* #3b84f6 (Blue Primary) */
+  --color-accent-rgb: 37, 99, 235;     /* #2563eb (Blue Accent) */
   --color-secondary-rgb: 248, 250, 252; /* #f8fafc (Light Slate) */
   --color-surface-rgb: 255, 255, 255;   /* #ffffff (White) */
   --color-text-heading-rgb: 15, 23, 42;  /* #0f172a (Dark Slate) */
