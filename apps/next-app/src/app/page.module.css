@@ -1231,7 +1231,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .twoColGrid, .areaGrid, .formGrid {
+  .twoColGrid, .areaGrid, .formGrid, .addonGrid {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
@@ -1430,5 +1430,79 @@
   border: 1px solid rgba(var(--color-text-heading-rgb), 0.08);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
   margin-top: 1rem;
+}
+
+/* Specialized Add-On Services */
+.addonGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.addonCard {
+  background-color: var(--color-surface);
+  border: 1px solid rgba(var(--color-text-heading-rgb), 0.08);
+  border-radius: 16px;
+  padding: 2.25rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.addonCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.addonCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(var(--color-primary-rgb), 0.08);
+  border-color: rgba(var(--color-primary-rgb), 0.2);
+}
+
+.addonCard:hover::before {
+  opacity: 1;
+}
+
+.addonIconContainer {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  background-color: rgba(var(--color-primary-rgb), 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.addonCard:hover .addonIconContainer {
+  background-color: var(--color-primary);
+  color: #fff;
+  transform: scale(1.05) rotate(5deg);
+}
+
+.addonTitle {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text-heading);
+  margin-bottom: 0.75rem;
+}
+
+.addonText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-body);
 }
 

@@ -359,6 +359,77 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* 4.5. Specialized Commercial Add-On Services */}
+      <section id="addons" className={styles.section}>
+        <div className={styles.container}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.sectionBadge}>Add-On Services</span>
+            <h2 className={styles.sectionTitle}>Specialized Commercial Add-On Services</h2>
+            <p className={styles.sectionSubtitle}>
+              In addition to our professional commercial cleaning programs, Allstate performs specialized maintenance tasks upon request to keep your facility pristine.
+            </p>
+          </div>
+
+          <div className={styles.addonGrid}>
+            <div className={styles.addonCard}>
+              <div className={styles.addonIconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 22h16" />
+                  <path d="M20 22l-4-5H8l-4 5" />
+                  <path d="M12 17V5c0-1.7 1.3-3 3-3h5" />
+                  <circle cx="8" cy="11" r="1" fill="currentColor" />
+                  <circle cx="12" cy="9" r="1" fill="currentColor" />
+                  <circle cx="16" cy="11" r="1" fill="currentColor" />
+                </svg>
+              </div>
+              <h3 className={styles.addonTitle}>Commercial Carpet Shampooing</h3>
+              <p className={styles.addonText}>
+                Deep carpet extraction and shampooing to remove heavy stains, eliminate odors, and prolong the lifespan of your commercial flooring.
+              </p>
+            </div>
+
+            <div className={styles.addonCard}>
+              <div className={styles.addonIconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M2 17h20" />
+                  <path d="M2 20h20" />
+                  <path d="M12 2v6" />
+                  <path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+                  <path d="M19 3l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" />
+                  <path d="M5 5l0.7 1.3 1.3 0.7-1.3 0.7-0.7 1.3-0.7-1.3-1.3-0.7 1.3-0.7z" />
+                </svg>
+              </div>
+              <h3 className={styles.addonTitle}>Floor Stripping & Waxing</h3>
+              <p className={styles.addonText}>
+                Complete refinishing services for high-traffic vinyl, tile, or hard surfaces. We strip old wax layers, buff, and apply commercial-grade protective coatings for a high-gloss finish.
+              </p>
+            </div>
+
+            <div className={styles.addonCard}>
+              <div className={styles.addonIconContainer}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2v4" />
+                  <path d="M12 18v4" />
+                  <path d="M4 12H2" />
+                  <path d="M22 12h-2" />
+                  <path d="M18.36 5.64l-2.82 2.82" />
+                  <path d="M8.46 15.54l-2.82 2.82" />
+                  <path d="M18.36 18.36l-2.82-2.82" />
+                  <path d="M8.46 8.46L5.64 5.64" />
+                  <circle cx="12" cy="12" r="4" fill="currentColor" opacity="0.15" />
+                </svg>
+              </div>
+              <h3 className={styles.addonTitle}>Industrial Pressure Washing</h3>
+              <p className={styles.addonText}>
+                Heavy-duty pressure washing for exterior walkways, parking structures, loading docks, and entryways to maintain absolute cleanliness outside your building.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* 5. Why Choose Us */}
       <section id="why-choose-us" className={styles.section}>
         <div className={styles.container}>
