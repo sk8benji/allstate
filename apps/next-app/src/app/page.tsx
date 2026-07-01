@@ -563,6 +563,9 @@ export default function Home() {
             <p className={styles.sectionSubtitle}>
               Clear, honest rates tailored to your facility's specific needs.
             </p>
+            <p className={styles.sectionSubtitle} style={{ marginTop: "1rem", fontSize: "1rem" }}>
+              <strong>Important Note:</strong> Allstate exclusively provides recurring monthly janitorial contracts. We do not offer one-time cleanings. This allows us to maintain consistent, high-standard facility upkeep within your monthly budget.
+            </p>
           </div>
 
           <div className={styles.galleryGrid}>
