@@ -1138,7 +1138,7 @@ export default function Home() {
                   <a href="tel:+18188871134" className={styles.contactVal} style={{ fontWeight: "700", color: "var(--color-primary)" }}>
                     (818) 887-1134
                   </a>
-                  <p className={styles.contactVal}>Mon - Sat: 8:00 AM - 6:00 PM</p>
+                  <p className={styles.contactVal}>Mon - Sat: 9:00 AM - 5:00 PM</p>
                 </div>
               </div>
 
@@ -1160,7 +1160,7 @@ export default function Home() {
                 <div className={styles.clientInfo}>
                   <h3 className={styles.contactLabel}>Direct Inquiries</h3>
                   <p className={styles.contactVal}>allstatecustomercare1@gmail.com</p>
-                  <p className={styles.contactVal}>Response within 1 business day</p>
+                  <p className={styles.contactVal}>24/7 Email Response (All Hours)</p>
                 </div>
               </div>
 
