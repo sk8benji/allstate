@@ -360,12 +360,12 @@ export default function Home() {
       </section>
 
 
-      {/* 4.5. Specialized Commercial Add-On Services */}
+      {/* 4.5. Specialized Facility Maintenance Services */}
       <section id="addons" className={styles.section}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <span className={styles.sectionBadge}>Add-On Services</span>
-            <h2 className={styles.sectionTitle}>Specialized Commercial Add-On Services</h2>
+            <h2 className={styles.sectionTitle}>Specialized Facility Maintenance Services</h2>
             <p className={styles.sectionSubtitle}>
               In addition to our professional commercial cleaning programs, Allstate performs specialized maintenance tasks upon request to keep your facility pristine.
             </p>
