@@ -910,32 +910,59 @@ export default function Home() {
             <span className={styles.sectionBadge}>Locations</span>
             <h2 className={styles.sectionTitle}>Our Service Coverage Areas</h2>
             <p className={styles.sectionSubtitle}>
-              We proudly provide office cleaning and commercial building maintenance services across the San Fernando Valley and the Greater Los Angeles Area.
+              We proudly provide office cleaning and commercial building maintenance services across Los Angeles County, Orange County, Ventura County, and the Inland Empire.
             </p>
           </div>
 
           <div className={styles.areaGrid}>
-            <div>
-              <h3 className={styles.areaSubHeader}>San Fernando Valley</h3>
-              <div className={styles.areaLinks}>
+            <div className={styles.laCountyCol}>
+              <h3 className={styles.areaSubHeader}>Los Angeles County</h3>
+              <div className={styles.laLinks}>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Woodland Hills (HQ)</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Calabasas</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Tarzana</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Encino</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Sherman Oaks</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hills</div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className={styles.areaSubHeader}>Greater Los Angeles</h3>
-              <div className={styles.areaLinks}>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Santa Monica</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Beverly Hills</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pasadena</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Glendale</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Downtown LA</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hollywood</div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Orange County</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Anaheim</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Buena Park</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Costa Mesa</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Cypress</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Irvine</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Laguna Beach</div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Inland Empire</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Rancho Cucamonga</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ontario</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Riverside</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Moreno Valley</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Perris</div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Ventura County</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Thousand Oaks</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ventura</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Camarillo</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Westlake Village</div>
               </div>
             </div>
           </div>

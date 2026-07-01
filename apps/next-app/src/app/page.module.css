@@ -826,10 +826,28 @@
 /* Service Areas Grid */
 .areaGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
-  max-width: 800px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.5rem;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.laCountyCol {
+  grid-column: span 2;
+}
+
+.laLinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.singleLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
 }
 
 .areaSubHeader {
@@ -1231,7 +1249,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .twoColGrid, .areaGrid, .formGrid, .addonGrid {
+  .twoColGrid, .formGrid, .addonGrid {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
@@ -1504,5 +1522,29 @@
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--color-text-body);
+}
+
+@media (max-width: 1024px) {
+  .areaGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 800px;
+  }
+  .laCountyCol {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .areaGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .laCountyCol {
+    grid-column: span 1;
+  }
+  .laLinks {
+    grid-template-columns: 1fr;
+  }
 }
 
