@@ -129,7 +129,7 @@ export default function Home() {
     { q: "Do we need to supply the cleaning equipment and products?", a: "No. We supply all commercial-grade cleaning equipment (HEPA vacuums, floor buffers) and high-quality EPA-approved cleaning products. If your company prefers specific green or scent-free products, we are happy to accommodate." },
     { q: "Can you clean after business hours?", a: "Absolutely. We customize our cleaning schedule to fit your business hours. We can perform quiet cleanings during operations, or deep cleanings overnight and on weekends to avoid disrupting your employees." },
     { q: "How do you handle keys, alarm codes, and facility security?", a: "Security is our top priority. Keys and access cards are logged, coded, and securely stored. Our cleaning crews are trained on standard alarm systems and double-checking locked entries before departure." },
-    { q: "Do you offer emergency or one-time deep cleaning?", a: "Yes, we provide emergency cleanups, post-construction cleanings, and one-time deep cleans (e.g., carpet extraction, post-event cleaning, floor restoration) on short notice." },
+    { q: "Do you offer one-time cleanings or residential services?", a: "No. Allstate specializes in recurring monthly janitorial contracts for commercial and corporate facilities. We do not provide one-time deep cleans, post-construction residential cleaning, or domestic maid services." },
     { q: "What is your satisfaction guarantee policy?", a: "We guarantee pristine results. If you notice any area that was not cleaned according to our agreed-upon checklist, contact us immediately, and we will send a crew to correct it under our satisfaction guarantee." }
   ];
 
