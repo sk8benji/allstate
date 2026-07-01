@@ -953,6 +953,7 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Riverside</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Moreno Valley</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Perris</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> San Bernardino</div>
               </div>
             </div>
 
@@ -963,6 +964,8 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ventura</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Camarillo</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Westlake Village</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Oxnard</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Simi Valley</div>
               </div>
             </div>
           </div>
