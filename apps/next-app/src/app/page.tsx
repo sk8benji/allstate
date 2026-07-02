@@ -354,6 +354,34 @@ export default function Home() {
                 Daily or weekly janitorial care including desk sanitization, conference room cleaning, trash removal, floor vacuuming, glass entry detailing, and breakroom deep cleaning.
               </p>
             </div>
+
+            <div className={styles.serviceCard}>
+              <a href="#quote" className={styles.serviceImageWrapper}>
+                <img src="/apartment.jpg" alt="Apartment Complexes & Property Management" className={styles.photoImage} />
+              </a>
+              <h3 className={styles.serviceTitle}>
+                <a href="#quote" className={styles.serviceTitleLink}>
+                  Apartment Complexes & Property Management
+                </a>
+              </h3>
+              <p className={styles.serviceText}>
+                We partner with property management companies to provide dedicated janitorial and day porter services, keeping residential common areas and facilities clean.
+              </p>
+            </div>
+
+            <div className={styles.serviceCard}>
+              <a href="#quote" className={styles.serviceImageWrapper}>
+                <img src="/vacancy.jpg" alt="Vacancy & Turnover Cleanings" className={styles.photoImage} />
+              </a>
+              <h3 className={styles.serviceTitle}>
+                <a href="#quote" className={styles.serviceTitleLink}>
+                  Vacancy & Turnover Cleanings
+                </a>
+              </h3>
+              <p className={styles.serviceText}>
+                Comprehensive cleaning services for vacant units, ensuring properties are perfectly prepared and sanitized for the next tenant.
+              </p>
+            </div>
           </div>
 
         </div>
