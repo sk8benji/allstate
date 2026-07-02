@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: "Allstate Building & Office Maintenance | Woodland Hills, CA",
-    description: "Woodland Hills' premier office cleaning & commercial building maintenance services. Professional janitorial care, floor restoration, and facility management since 2010.",
+    description: "Southern California's office cleaning and commercial building maintenance. Professional janitorial care and facility management since 1981.",
     keywords: "Office cleaning, building maintenance, janitorial services, commercial cleaning, Woodland Hills CA, office maintenance",
     alternates: {
       canonical: canonicalUrl,
