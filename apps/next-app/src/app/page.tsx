@@ -357,7 +357,7 @@ export default function Home() {
 
             <div className={styles.serviceCard}>
               <a href="#quote" className={styles.serviceImageWrapper}>
-                <img src="/apartment.jpg" alt="Apartment Complexes & Property Management" className={styles.photoImage} />
+                <img src="/apartment.png" alt="Apartment Complexes & Property Management" className={styles.photoImage} />
               </a>
               <h3 className={styles.serviceTitle}>
                 <a href="#quote" className={styles.serviceTitleLink}>
@@ -371,7 +371,7 @@ export default function Home() {
 
             <div className={styles.serviceCard}>
               <a href="#quote" className={styles.serviceImageWrapper}>
-                <img src="/vacancy.jpg" alt="Vacancy & Turnover Cleanings" className={styles.photoImage} />
+                <img src="/vacancy.png" alt="Vacancy & Turnover Cleanings" className={styles.photoImage} />
               </a>
               <h3 className={styles.serviceTitle}>
                 <a href="#quote" className={styles.serviceTitleLink}>
