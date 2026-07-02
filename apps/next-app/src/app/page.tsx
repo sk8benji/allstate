@@ -8,6 +8,13 @@ export default function Home() {
   // FAQ Accordion State
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  // Testimonials Expanded State
+  const [expandedReviews, setExpandedReviews] = useState<{ [key: number]: boolean }>({});
+
+  const toggleReview = (index: number) => {
+    setExpandedReviews(prev => ({ ...prev, [index]: !prev[index] }));
+  };
+
   // Form State
   const [formData, setFormData] = useState({
     name: "",
@@ -689,62 +696,54 @@ export default function Home() {
           </div>
 
           <div className={styles.testimonialGrid}>
-            <div className={styles.testimonialCard}>
-              <div className={styles.rating}>★★★★★</div>
-              <p className={styles.quote}>
-                &ldquo;Allstate has been cleaning my office 3 days a week since 2018. They are always very reliable and consistent. My cleaners even came to clean during the worst day of Hurricane Hillary which I was very grateful for since the roads were so flooded. Our office had minor flooding from the storm so I emailed Pam to request an emergency carpet shampoo. She responded right away and had a technician perform the shampoo the same day. I highly recommend this company. Great cleaners and caring customer service staff!&rdquo;
-              </p>
-              <div className={styles.clientInfo}>
-                <span className={styles.clientName}>t b</span>
-                <span className={styles.clientCompany}>Verified Google Review</span>
-                <a
-                  href="https://share.google/9Pvj7izc64fUGtesW"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.reviewLink}
-                >
-                  View Review &rarr;
-                </a>
-              </div>
-            </div>
-
-            <div className={styles.testimonialCard}>
-              <div className={styles.rating}>★★★★★</div>
-              <p className={styles.quote}>
-                &ldquo;We are very pleased with our cleaning co. Allstate, starting with Stephanie and her customer service, Pam gets the job done as listens to any concerns and sends the best person for the job. Jorge is the man when you want the job done right!!! he goes above and beyond his job. Thank you guys for the excellent service you provide for us.&rdquo;
-              </p>
-              <div className={styles.clientInfo}>
-                <span className={styles.clientName}>Duarte Family Dentistry</span>
-                <span className={styles.clientCompany}>Verified Google Review</span>
-                <a
-                  href="https://share.google/qxiu2nLr0NlXZEdv2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.reviewLink}
-                >
-                  View Review &rarr;
-                </a>
-              </div>
-            </div>
-
-            <div className={styles.testimonialCard}>
-              <div className={styles.rating}>★★★★★</div>
-              <p className={styles.quote}>
-                &ldquo;I heard about Allstate from a close friend of mine several years ago. I decided to go with them because I really liked Anthony and his approach to my company. You see Allstate is a family run company. So is my company and I'm the son of parents who each had their own companies. So I place great value in this. Almost 5 years has gone by now and I couldn't think about using another company. They do an excellent job cleaning my 6K square foot gym. If I ever have an issue they go above and beyond to fix it as soon as possible. Anthony is on top of everything I need. I feel like they are more then just &ldquo;my cleaning crew&rdquo; I know all their names. They are my friends. I respect them and they respect me and our relationship has blossomed over the years. That's why I prefer family runned companies. Because you become a part of each other's family. Look no further when finding your crew. In a world run by large corporations family run is always the way to go. Give these guys a shot, be patient, and communicate. You will be extremely grateful that you did.&rdquo;
-              </p>
-              <div className={styles.clientInfo}>
-                <span className={styles.clientName}>Michael Tromello</span>
-                <span className={styles.clientCompany}>Verified Google Review</span>
-                <a
-                  href="https://share.google/xA1lfGFgcRfxKHPmE"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.reviewLink}
-                >
-                  View Review &rarr;
-                </a>
-              </div>
-            </div>
+            {[
+              {
+                rating: "★★★★★",
+                quote: `“Allstate has been cleaning my office 3 days a week since 2018. They are always very reliable and consistent. My cleaners even came to clean during the worst day of Hurricane Hillary which I was very grateful for since the roads were so flooded. Our office had minor flooding from the storm so I emailed Pam to request an emergency carpet shampoo. She responded right away and had a technician perform the shampoo the same day. I highly recommend this company. Great cleaners and caring customer service staff!”`,
+                name: "t b",
+                company: "Verified Google Review",
+                link: "https://share.google/9Pvj7izc64fUGtesW"
+              },
+              {
+                rating: "★★★★★",
+                quote: `“We are very pleased with our cleaning co. Allstate, starting with Stephanie and her customer service, Pam gets the job done as listens to any concerns and sends the best person for the job. Jorge is the man when you want the job done right!!! he goes above and beyond his job. Thank you guys for the excellent service you provide for us.”`,
+                name: "Duarte Family Dentistry",
+                company: "Verified Google Review",
+                link: "https://share.google/qxiu2nLr0NlXZEdv2"
+              },
+              {
+                rating: "★★★★★",
+                quote: `“I heard about Allstate from a close friend of mine several years ago. I decided to go with them because I really liked Anthony and his approach to my company. You see Allstate is a family run company. So is my company and I'm the son of parents who each had their own companies. So I place great value in this. Almost 5 years has gone by now and I couldn't think about using another company. They do an excellent job cleaning my 6K square foot gym. If I ever have an issue they go above and beyond to fix it as soon as possible. Anthony is on top of everything I need. I feel like they are more then just “my cleaning crew” I know all their names. They are my friends. I respect them and they respect me and our relationship has blossomed over the years. That's why I prefer family runned companies. Because you become a part of each other's family. Look no further when finding your crew. In a world run by large corporations family run is always the way to go. Give these guys a shot, be patient, and communicate. You will be extremely grateful that you did.”`,
+                name: "Michael Tromello",
+                company: "Verified Google Review",
+                link: "https://share.google/xA1lfGFgcRfxKHPmE"
+              }
+            ].map((review, idx) => {
+              const isExpanded = !!expandedReviews[idx];
+              return (
+                <div key={idx} className={styles.testimonialCard}>
+                  <div className={styles.rating}>{review.rating}</div>
+                  <p className={`${styles.quote} ${!isExpanded ? styles.quoteCollapsed : ""}`}>
+                    {review.quote}
+                  </p>
+                  <button onClick={() => toggleReview(idx)} className={styles.readMoreBtn}>
+                    {isExpanded ? "Read Less" : "Read More"}
+                  </button>
+                  <div className={styles.clientInfo}>
+                    <span className={styles.clientName}>{review.name}</span>
+                    <span className={styles.clientCompany}>{review.company}</span>
+                    <a
+                      href={review.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.reviewLink}
+                    >
+                      View Review &rarr;
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
