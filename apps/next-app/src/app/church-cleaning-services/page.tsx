@@ -478,48 +478,51 @@ export default function ReligiousFacilitiesPage() {
       </section>
 
       {/* 11. Footer */}
-      <footer className={styles.footer}>
+            <footer className={styles.footer}>
         <div className="container">
           <div className={styles.footerGrid}>
             <div className={styles.footerCol}>
-              <img
-                src="/logo.jpg"
-                alt="Allstate Building & Office Maintenance Logo"
-                style={{
-                  maxWidth: "200px",
-                  height: "auto",
-                  display: "block",
-                  marginBottom: "1.25rem",
-                  borderRadius: "8px",
-                  backgroundColor: "#ffffff",
-                  padding: "0.5rem"
+              <img 
+                src="/logo.jpg" 
+                alt="Allstate Building & Office Maintenance Logo" 
+                style={{ 
+                  maxWidth: "220px", 
+                  height: "auto", 
+                  display: "block", 
+                  marginBottom: "1.25rem", 
+                  borderRadius: "8px", 
+                  backgroundColor: "#ffffff", 
+                  padding: "0.5rem" 
                 }}
               />
               <p style={{ fontSize: "0.9rem", lineHeight: "1.6", margin: "1rem 0" }}>
-                Allstate Building & Office Maintenance is Woodland Hills' trusted commercial janitorial and floor-care provider. Licensed, bonded, and insured since 1981.
+                Allstate Building & Office Maintenance is Woodland Hills' trusted provider of high-quality commercial janitorial, office disinfection, and facility maintenance support.
               </p>
             </div>
             <div className={styles.footerCol}>
-              <h3>Sectors</h3>
+              <h3>Services</h3>
               <div className={styles.footerLinks}>
                 <a href="/car-dealerships-janitorial-services" className={styles.footerLink}>Dealerships Cleaning</a>
                 <a href="/dental-office-janitorial-services" className={styles.footerLink}>Medical Clinics Cleaning</a>
                 <a href="/industrial-manufacturing-janitorial-services" className={styles.footerLink}>Manufacturing Upkeep</a>
-                <a href="/church-cleaning-services" className={styles.footerLink}>Religious Facilities</a>
-                <a href="/#services" className={styles.footerLink}>Schools & Malls Upkeep</a>
+                <a href="/school-cleaning-services" className={styles.footerLink}>School Cleaning</a>
+                <a href="/shopping-mall-cleaning" className={styles.footerLink}>Shopping Mall Cleaning</a>
+                <a href="/fitness-center-cleaning" className={styles.footerLink}>Fitness Center Cleaning</a>
+                <a href="/dance-studio-janitorial-services" className={styles.footerLink}>Dance Studio Cleaning</a>
+                <a href="/offices-and-buildings-janitorial-services" className={styles.footerLink}>Office Buildings Upkeep</a>
               </div>
             </div>
             <div className={styles.footerCol}>
               <h3>Contact</h3>
               <div className={styles.footerLinks}>
                 <span className={styles.footerLink}>📞 (818) 887-1134</span>
-                <span className={styles.footerLink}>📍 19720 Ventura Blvd, Woodland Hills, CA</span>
+                <span className={styles.footerLink}>📍 19720 Ventura Blvd Suite # 105, Woodland Hills, CA</span>
                 <span className={styles.footerLink}>✉️ allstatecustomercare1@gmail.com</span>
               </div>
             </div>
           </div>
           <div className={styles.footerCopyright}>
-            &copy; {new Date().getFullYear()} Allstate Building & Office Maintenance. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Allstate Building & Office Maintenance. All Rights Reserved. Licensed, Bonded & Insured.
           </div>
         </div>
       </footer>
