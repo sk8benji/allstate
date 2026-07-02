@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const canonicalUrl = `${protocol}://${host}`;
 
   return {
-    title: "Allstate Building & Office Maintenance | Woodland Hills, CA",
+    title: "Commercial Cleaning | Allstate Building & Office Maintenance",
     description: "Southern California's office cleaning and commercial building maintenance. Professional janitorial care and facility management since 1981.",
     keywords: "Office cleaning, building maintenance, janitorial services, commercial cleaning, Woodland Hills CA, office maintenance",
     alternates: {
