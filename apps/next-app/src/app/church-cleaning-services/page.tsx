@@ -405,24 +405,75 @@ export default function ReligiousFacilitiesPage() {
       </section>
 
       {/* 10. Locations Coverage Section */}
-      <section className={`${styles.section} ${styles.locationSection}`}>
+            <section className={`${styles.section} ${styles.locationSection}`}>
         <div className="container">
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Our Commercial Service Areas</h2>
             <div className={styles.sectionTitleDivider}></div>
             <p className={styles.sectionSubtitle}>
-              We proudly provide church and temple sanitizing and janitorial maintenance across the San Fernando Valley and Greater Los Angeles.
+              We proudly provide office cleaning and commercial building maintenance services across Los Angeles County, Orange County, Ventura County, and the Inland Empire.
             </p>
           </div>
 
-          <div className={styles.locationGrid}>
-            {locations.map((loc, idx) => (
-              <div key={idx} className={styles.locationCard}>
-                <span className={styles.locationDot}></span>
-                {loc}
+          <div className={styles.areaGrid}>
+            <div className={styles.laCountyCol}>
+              <h3 className={styles.areaSubHeader}>Los Angeles County</h3>
+              <div className={styles.laLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Woodland Hills (HQ)</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Calabasas</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Tarzana</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Encino</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Sherman Oaks</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hills</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Santa Monica</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Beverly Hills</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pasadena</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Glendale</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Downtown LA</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hollywood</div>
               </div>
-            ))}
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Orange County</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Anaheim</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Buena Park</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Costa Mesa</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Cypress</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Irvine</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Laguna Beach</div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Inland Empire</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Rancho Cucamonga</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ontario</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Riverside</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Moreno Valley</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pomona</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> San Bernardino</div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className={styles.areaSubHeader}>Ventura County</h3>
+              <div className={styles.singleLinks}>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Thousand Oaks</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ventura</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Camarillo</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Westlake Village</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Oxnard</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Simi Valley</div>
+              </div>
+            </div>
           </div>
+
+          <p className={styles.whyText} style={{ marginTop: "3rem", textAlign: "center", fontSize: "1.05rem", opacity: 0.95, maxWidth: "800px", marginLeft: "auto", marginRight: "auto" }}>
+            Our service coverage includes all areas throughout Los Angeles County, Orange County, and Ventura County. The list above represents our main service hubs, but our coverage is not limited to these specific locations.
+          </p>
         </div>
       </section>
 
