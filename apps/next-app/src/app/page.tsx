@@ -191,8 +191,8 @@ export default function Home() {
       <section className={styles.section}>
         <div className={styles.container}>
           <div className={styles.sectionHeader} style={{ marginBottom: "2rem" }}>
-            <span className={styles.sectionBadge}>About Our Firm</span>
-            <h2 className={styles.sectionTitle}>Los Angeles Commercial Facility Care Experts</h2>
+            <span className={styles.sectionBadge}>About Our Company</span>
+            <h2 className={styles.sectionTitle}>Southern California Commercial Facility Care Experts</h2>
             <p className={styles.sectionSubtitle}>
               Since 1981, Allstate Building & Office Maintenance Inc. has delivered clean, healthy, and inviting environments for commercial properties. We know a spotless workspace drives employee health, focus, and corporate reputation.
             </p>
@@ -749,7 +749,7 @@ export default function Home() {
 
             <div>
               <span className={styles.sectionBadge}>Our Organization</span>
-              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>The San Fernando Valley's Trusted Facility Partner</h2>
+              <h2 className={styles.sectionTitle} style={{ textAlign: "left" }}>Los Angeles Experts</h2>
               <p className={styles.sectionSubtitle} style={{ textAlign: "left", marginBottom: "1.5rem" }}>
                 Allstate Building & Office Maintenance serves commercial facilities, medical centers, and warehouses with custom upkeep services.
               </p>
@@ -955,7 +955,7 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Ontario</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Riverside</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Moreno Valley</div>
-                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Perris</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pomona</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> San Bernardino</div>
               </div>
             </div>
@@ -972,6 +972,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <p className={styles.whyText} style={{ marginTop: "3rem", textAlign: "center", fontSize: "1.05rem", opacity: 0.95, maxWidth: "800px", marginLeft: "auto", marginRight: "auto" }}>
+            Our service coverage includes all areas throughout Los Angeles County, Orange County, and Ventura County. The list above represents our main service hubs, but our coverage is not limited to these specific locations.
+          </p>
         </div>
       </section>
 
@@ -1142,6 +1146,9 @@ export default function Home() {
                     (818) 887-1134
                   </a>
                   <p className={styles.contactVal}>Mon - Sat: 9:00 AM - 5:00 PM</p>
+                  <p className={styles.contactVal} style={{ marginTop: "0.5rem", fontSize: "0.85rem", lineHeight: "1.4" }}>
+                    <strong>Cleaning Availability:</strong> Our cleaning teams are available Monday through Sunday. We accommodate all client requests, offering both during-hours and after-hours cleaning services to fit your operational schedule.
+                  </p>
                 </div>
               </div>
 
@@ -1153,7 +1160,7 @@ export default function Home() {
                     Allstate Building & Office Maintenance
                   </p>
                   <p className={styles.contactVal}>
-                    19720 Ventura Blvd, Woodland Hills, CA 91364, USA
+                    19720 Ventura Blvd Suite # 105, Woodland Hills, CA 91364, USA
                   </p>
                 </div>
               </div>
@@ -1222,7 +1229,7 @@ export default function Home() {
               <h3>Contact</h3>
               <div className={styles.footerLinks}>
                 <span className={styles.footerLink}>📞 (818) 887-1134</span>
-                <span className={styles.footerLink}>📍 19720 Ventura Blvd, Woodland Hills, CA</span>
+                <span className={styles.footerLink}>📍 19720 Ventura Blvd Suite # 105, Woodland Hills, CA</span>
                 <span className={styles.footerLink}>✉️ allstatecustomercare1@gmail.com</span>
               </div>
             </div>
