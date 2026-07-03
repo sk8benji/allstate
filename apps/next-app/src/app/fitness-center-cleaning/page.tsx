@@ -405,7 +405,7 @@ export default function FitnessCenterCleaningPage() {
       </section>
 
       {/* 10. Locations Coverage Section */}
-            <section className={`${styles.section} ${styles.locationSection}`}>
+                  <section className={`${styles.section} ${styles.locationSection}`}>
         <div className="container">
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Our Commercial Service Areas</h2>
@@ -429,6 +429,8 @@ export default function FitnessCenterCleaningPage() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Beverly Hills</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pasadena</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Glendale</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Burbank</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> North Hollywood</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Downtown LA</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hollywood</div>
               </div>

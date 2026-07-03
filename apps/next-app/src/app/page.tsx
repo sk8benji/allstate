@@ -764,10 +764,6 @@ export default function Home() {
                   <div className={styles.aboutMiniLabel}>Years</div>
                 </div>
                 <div className={styles.aboutMiniCard}>
-                  <div className={styles.aboutMiniVal}>250+</div>
-                  <div className={styles.aboutMiniLabel}>Contracts</div>
-                </div>
-                <div className={styles.aboutMiniCard}>
                   <div className={styles.aboutMiniVal}>100%</div>
                   <div className={styles.aboutMiniLabel}>Insured</div>
                 </div>
@@ -958,6 +954,8 @@ export default function Home() {
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Beverly Hills</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Pasadena</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Glendale</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Burbank</div>
+                <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> North Hollywood</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> Downtown LA</div>
                 <div className={styles.areaLinkItem}><span className={styles.areaLinkDot}></span> West Hollywood</div>
               </div>
@@ -1174,7 +1172,7 @@ export default function Home() {
                   </a>
                   <p className={styles.contactVal}>Mon - Sat: 9:00 AM - 5:00 PM</p>
                   <p className={styles.contactVal} style={{ marginTop: "0.5rem", fontSize: "0.85rem", lineHeight: "1.4" }}>
-                    <strong>Cleaning Availability:</strong> Our cleaning teams are available Monday through Sunday. We accommodate all client requests, offering both during-hours and after-hours cleaning services to fit your operational schedule.
+                    <strong>Cleaning Availability:</strong> Our cleaning teams are available Monday through Sunday. We accommodate all client requests, offering both during business hours and after business hours cleaning services to fit your operational schedule.
                   </p>
                 </div>
               </div>
