@@ -1,10 +1,32 @@
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
-const { loadEnvConfig } = require('@next/env');
+const fs = require('fs');
+const path = require('path');
 
-// Load environment variables from .env files
-loadEnvConfig(process.cwd());
+// Manually load .env.local on startup using pure Node.js to avoid module resolution issues
+try {
+  const envPath = path.join(__dirname, '.env.local');
+  if (fs.existsSync(envPath)) {
+    const envConfig = fs.readFileSync(envPath, 'utf8');
+    envConfig.split(/\r?\n/).forEach(line => {
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith('#')) {
+        const firstEquals = trimmed.indexOf('=');
+        if (firstEquals !== -1) {
+          const key = trimmed.substring(0, firstEquals).trim();
+          const value = trimmed.substring(firstEquals + 1).trim();
+          const cleanValue = value.replace(/^['"]|['"]$/g, '');
+          if (!process.env[key]) {
+            process.env[key] = cleanValue;
+          }
+        }
+      }
+    });
+  }
+} catch (err) {
+  console.error('Error loading .env.local manually:', err);
+}
 
 const dev = process.env.NODE_ENV !== 'production';
 const hostname = 'localhost';
