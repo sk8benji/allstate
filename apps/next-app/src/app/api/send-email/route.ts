@@ -7,7 +7,7 @@ export async function POST(request: Request) {
 
     // Verify required environment variables
     const apiKey = process.env.RESEND_API_KEY;
-    const destEmail = process.env.DESTINATION_EMAIL || "allstatecustomercare1@gmail.com";
+    const destEmail = process.env.DESTINATION_EMAIL || "sk8benji@gmail.com";
 
     if (!apiKey) {
       console.error("Missing RESEND_API_KEY environment variable");
