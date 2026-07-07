@@ -836,11 +836,11 @@ export default function Home() {
             <div className={styles.serviceCard} style={{ backgroundColor: "#fff" }}>
               <div className={styles.cardHeaderWithBadge}>
                 <span className={styles.credentialIcon}>🛡️</span>
-                <span className={styles.credentialBadge}>$5,000,000 Coverage</span>
+                <span className={styles.credentialBadge}>Fully Insured</span>
               </div>
-              <h3 className={styles.serviceTitle} style={{ marginTop: "1rem" }}>Liability Insurance & Workers' Comp</h3>
+              <h3 className={styles.serviceTitle} style={{ marginTop: "1rem" }}>Fully Insured Protection</h3>
               <p className={styles.serviceText}>
-                Protected by a comprehensive $5,000,000 general liability policy and complete workers' compensation insurance. We eliminate operational liabilities, providing corporations with absolute financial security and peace of mind.
+                We are fully insured with top of the line full spectrum insurance coverage. We eliminate operational liabilities, providing corporations with absolute financial security and peace of mind.
               </p>
             </div>
 

@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "Is your company fully insured for industrial environments?",
-    a: "Yes. Allstate Building & Office Maintenance maintains comprehensive general liability insurance (up to $5,000,000 policy limits), complete workers' compensation, and commercial bonding, providing full protection for major operations."
+    a: "Yes. Allstate Building & Office Maintenance is fully insured with top of the line full spectrum insurance coverage and commercial bonding, providing full protection for major operations."
   }
 ];
 
